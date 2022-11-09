@@ -34,3 +34,28 @@
   flex-wrap: wrap;
   border: 3px solid;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+  border: 2px solid;
+  background-color: aqua;
+}
+.navbar:hover {
+  background-color: aquamarine;
+  cursor: wait;
+}
+
+.Link {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+.Link:hover {
+  font-weight: 100;
+  font-size: x-large;
+}
