@@ -35,6 +35,11 @@
   border-radius: 4px;
 }
 
+#select {
+  display: flex;
+  margin-left: 50px;
+}
+
 .navbar {
   color: white;
   display: flex;
