@@ -49,15 +49,27 @@
 .links {
   display: flex;
   width: 100%;
-  justify-content: right;
+  justify-content: center;
   
+}
+.profile {
+  display: inline-flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#profpic {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 #nology {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 52px;
+  height: 70px;
   margin: 0px;
   margin-bottom: 0px;
   width: 200px;
@@ -97,6 +109,7 @@ button:hover {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  background-color: antiquewhite;
+  height: 45%;
+  width: 90%;
 }
