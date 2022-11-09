@@ -1,7 +1,6 @@
 .container {
   display: flex;
   justify-content: space-evenly;
-  margin: auto;
   height:100%;
   width:100%;
   
@@ -10,22 +9,33 @@
 .panels {
   display: flex;
   flex-direction: column;
+  
+  padding: 3px;
   justify-content: space-evenly;
   width: 300%;
 }
 
 
 #P1 {
+ 
   border: 3px solid;
+  padding: 3px;
+  justify-content: space-evenly;
   
 }
 
 #P2 {
+
   border: 3px solid;
+  padding: 3px;
+  justify-content: space-evenly;
 }
 
 #P3 {
+  
   border: 3px solid;
+  padding: 3px;
+  justify-content: space-evenly;
 }
 
 #R1 {
@@ -40,7 +50,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  
+
   border: 2px solid;
   background-color: aqua;
 }
