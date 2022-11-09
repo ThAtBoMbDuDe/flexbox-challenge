@@ -9,33 +9,72 @@
 .panels {
   display: flex;
   flex-direction: column;
-  
   padding: 3px;
   justify-content: space-evenly;
   width: 300%;
 }
-
+.box1 {
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: darkgray;
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 200px;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: darkgray;
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.box3 {
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: darkgray;
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
 #P1 {
- 
+  display: flex;
+  align-items: center;
   border: 3px solid;
   padding: 3px;
   justify-content: space-evenly;
+  margin-bottom: 5px;
   
 }
 
 #P2 {
-
+  display: flex;
+  justify-content: flex-end;  
   border: 3px solid;
   padding: 3px;
-  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
 }
 
 #P3 {
-  
+  display: flex;
+  justify-content: flex-start;
   border: 3px solid;
   padding: 3px;
-  justify-content: space-evenly;
+  margin-top: 5px;
+  
+  
 }
 
 #R1 {
@@ -43,25 +82,42 @@
   align-items: flex-start;
   flex-wrap: wrap;
   border: 3px solid;
+  padding: 3px;
 }
 
 .navbar {
+  color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+ 
 
   border: 2px solid;
-  background-color: aqua;
+  background-color: black;
 }
 .navbar:hover {
-  background-color: aquamarine;
+  background-color: green;
   cursor: wait;
 }
-
-.Link {
-  display: inline-flex;
+.links {
+  display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#nology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  margin: 0px;
+  margin-bottom: 0px;
+  width: 200px;
+
+  background-color: green;
+}
+.Link {
+  
+  display: inline-flex;
   align-items: flex-end;
   
 }
