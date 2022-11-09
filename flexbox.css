@@ -143,3 +143,16 @@ p {
 h1 {
   display: flex;
 }
+
+.box1:hover {
+  box-shadow: 10px 10px 10px black;
+  
+}
+.box2:hover {
+  box-shadow: 10px 10px 10px black;
+  
+}
+.box3:hover {
+  box-shadow: 10px 10px 10px black;
+  
+}
